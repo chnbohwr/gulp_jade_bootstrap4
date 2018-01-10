@@ -4,11 +4,14 @@
   "description": "Starter for Bootstrap workflow",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp server",
+    "build": "gulp"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
-    "font-awesome": "^4.7.0"
+    "axios": "^0.17.1",
+    "bootstrap": "^4.0.0-beta.3",
+    "font-awesome": "^4.7.0",
+    "gulp-jade": "^1.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
